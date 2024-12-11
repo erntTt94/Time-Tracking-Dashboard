@@ -133,12 +133,12 @@ section {
     border-radius: 0.9rem;
 }
 
-.inner-box h1 {
+.inner-box h2 {
     font-size: 2.7rem;
     font-weight: var(--fw-300);
 }
 
-.inner-box h2 {
+.inner-box h3 {
     font-size: 0.7rem;
     font-weight: var(--fw-300);
     color: var(--pale-blue);
@@ -206,15 +206,12 @@ li:hover {
     color: white;
 }
 
-
-
-
-
-
-
-
-
 @media (max-width:700px) {
+    main {
+        width: 100%;
+        padding: 1rem 0;
+    }
+    
     section {
         grid-template-columns: 1fr;
         grid-template-rows: auto-fit;
@@ -265,7 +262,7 @@ li:hover {
         gap: 0.3rem;
     }
 
-    .inner-box h1 {
+    .inner-box h2 {
         font-size: 1.5rem;
     }
 
